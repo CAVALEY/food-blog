@@ -3,7 +3,7 @@ import "./styles/LastRecipes.css"
 
 export default function Most(props) {
     return (
-        <div class={props.data1.classImag}>
+        <button class={props.data1.classImag}>
             <img src={props.data1.imagen} alt="" class="lastImgReceta"/>
             <text class="tituloLast" >{props.data1.titulo}</text>
             <div class="grupoImagLast">
@@ -14,6 +14,6 @@ export default function Most(props) {
                 <img src="https://i78.servimg.com/u/f78/20/31/61/87/clock_10.png" alt="" class="iconosLast img2"/>
                 <img src="https://i78.servimg.com/u/f78/20/31/61/87/user_110.png" alt="" class="iconosLast img3"/>    
             </div>    
-        </div>
+        </button>
     )
 }

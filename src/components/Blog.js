@@ -26,18 +26,18 @@ export default function Blog() {
                 </div>
                 <div class="archives">
                     <text class="tituloFotter">Archives</text>
-                    <text class="text1 textoFotter">Jun 2019</text>
-                    <text class="text2 textoFotter">Jun 2018</text>
-                    <text class="text3 textoFotter">Jun 2017-14</text>
+                    <button class="text1 textoFotter">Jun 2019</button>
+                    <button class="text2 textoFotter">Jun 2018</button>
+                    <button class="text3 textoFotter">Jun 2017-14</button>
                     <circulo class="cir1 circuloFotter"></circulo>
                     <circulo class="cir2 circuloFotter"></circulo>
                     <circulo class="cir3 circuloFotter"></circulo>
                 </div>
                 <div class="recipe">
                     <text class="tituloFotter">Recipes</text>
-                    <text class="text1 textoFotter">Browse Recipes</text>
-                    <text class="text2 textoFotter">Recipe Page</text>
-                    <text class="text3 textoFotter">Submit Recipe</text>
+                    <button class="text1 textoFotter">Browse Recipes</button>
+                    <button class="text2 textoFotter">Recipe Page</button>
+                    <button class="text3 textoFotter">Submit Recipe</button>
                     <circulo class="cir1 circuloFotter"></circulo>
                     <circulo class="cir2 circuloFotter"></circulo>
                     <circulo class="cir3 circuloFotter"></circulo>
@@ -45,9 +45,9 @@ export default function Blog() {
                 <div class="newsletter">
                     <div class="suscripcion">
                         <text class="email">Your email address</text>
-                        <div>
+                        <button class="botonFotter">
                             <text class="subs">Subscribe</text>
-                        </div>
+                        </button>
                     </div>
                     <text class="tituloFotter">Newsletter</text>
                     <text class="textoFotter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat posuere mauris </text>
@@ -63,11 +63,11 @@ export default function Blog() {
                 <img src="https://i78.servimg.com/u/f78/20/31/61/87/image_22.jpg" alt="" class="imagen3 imagen"/>
                 <img src="https://i78.servimg.com/u/f78/20/31/61/87/image_25.jpg" alt="" class="imagen4 imagen"/>
                 <img src="https://i78.servimg.com/u/f78/20/31/61/87/image_26.jpg" alt="" class="imagen5 imagen"/>
-                <div class="suscribIns">
+                <button class="suscribIns">
                     <img src="https://i78.servimg.com/u/f78/20/31/61/87/instag10.png" alt="" class="logoIns"/>
                     <text class="foll">Follow me</text>
                     <text class="instagram">Instagram</text>
-                </div>
+                </button>
             </div>
             <div class="tranding">
                 <text class="tituloTranding">Tranding Recipes</text>
@@ -96,14 +96,14 @@ export default function Blog() {
                 <div class="direccionEmail">
                     <text class="texto">Your email address</text>
                 </div>
-                <div class="suscribirseUpdates">
+                <button class="suscribirseUpdates">
                     <text class="texto">Subscribe</text>
-                </div>
+                </button>
             </div>
-            <div class="ad">
+            <button class="ad">
                 <img src="https://i78.servimg.com/u/f78/20/31/61/87/image_27.jpg" alt="" class="imagenAdd"/>
                 <text class="textoAdd">Ad</text>
-            </div>
+            </button>
             <div class="subscribe">
                 <text class="tituloSubscribe">Subscribe & Follow</text>
                 <div class="lineaNormal"></div>
@@ -143,12 +143,12 @@ export default function Blog() {
                 <div class="fondo"></div>
                 <div class="menu">
                     <text class="logo">FooBlo</text>
-                    <text class="textoMenu home">Home</text>
-                    <text class="textoMenu recipes">Recipes</text>
-                    <text class="textoMenu pages">Pages</text>
-                    <text class="textoMenu about">About Me</text>
-                    <text class="textoMenu blog">Blog</text>
-                    <text class="textoMenu contact">Contact</text>
+                    <button class="textoMenu home">Home</button>
+                    <button class="textoMenu recipes">Recipes</button>
+                    <button class="textoMenu pages">Pages</button>
+                    <button class="textoMenu about">About Me</button>
+                    <button class="textoMenu blog">Blog</button>
+                    <button class="textoMenu contact">Contact</button>
                     <div class="buscar">
                         <vector class="circulo"></vector>
                         <vector class="palo"></vector>
@@ -164,9 +164,9 @@ export default function Blog() {
                         <img src="https://i78.servimg.com/u/f78/20/31/61/87/clock_10.png" alt="" class="imagenHero2"/>
                         <img src="https://i78.servimg.com/u/f78/20/31/61/87/user_110.png" alt="" class="imagenHero3"/>
                     </div>
-                    <div class="viewRecipes">
+                    <button class="viewRecipes">
                         <text>View Recipes</text>
-                    </div>
+                    </button>
                     <text class="titulo">Mexican Grilled Corn Recipe</text>
                 </div>
                 <div class="imagenes">

@@ -11,6 +11,14 @@
     color: #2D2D2D;
 }
 
+.imagenTranding{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 0px;
+    top: 0px;    
+}
+
 .grupoTranding{
     position: absolute;
     width: 112px;

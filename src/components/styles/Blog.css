@@ -5,6 +5,8 @@
     background: #FFFFFF;
 }
 
+
+
 .fotter{
     position: absolute;
     width: 1440px;
@@ -129,6 +131,28 @@
     color: #2D2D2D;    
 }
 
+.recipe .textoFotter{
+    background-color: transparent;
+    transition: all 1s;
+}
+
+.recipe .textoFotter:hover{
+    
+    transform: scale(1.1);
+    text-shadow: 0.1em 0.1em 0.5em black;
+}
+
+.archives .textoFotter{
+    background-color: transparent;
+    transition: all 1s;
+}
+
+.archives .textoFotter:hover{
+    
+    transform: scale(1.1);
+    text-shadow: 0.1em 0.1em 0.5em black;
+}
+
 .about text{
     position: absolute;
     width: 270px;
@@ -245,12 +269,12 @@
     color: #2D2D2D;
 }
 
-.suscripcion div{
+.botonFotter{
     position: absolute;
     width: 75px;
     height: 33px;
     left: 177px;
-    background: #FE4A51;   
+    background: #FE4A51;      
 }
 
 .subs{
@@ -313,6 +337,14 @@
     font-size: 20px;
     line-height: 24px;
     color: #2D2D2D;
+    background-color: transparent;
+    transition: all 1s;
+}
+
+.menu .textoMenu:hover{
+    
+    transform: scale(1.5);
+    text-shadow: 0.1em 0.1em 0.5em black;
 }
 
 .menu .home{
@@ -341,7 +373,7 @@
 
 .menu .about{
     position: absolute;
-    width: 88px;
+    width: 96px;
     height: 24px;
     left: 610px;
     top: 7px;
@@ -642,7 +674,7 @@
     width: 870px;
     height: 550px;
     left: 135px;
-    top: 2209px;   /*------------------------------*/
+    top: 2244px;   /*------------------------------*/
 }
 
 .recipes .titulo{

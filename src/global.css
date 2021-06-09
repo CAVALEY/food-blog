@@ -1,0 +1,12 @@
+button{
+    border: none;
+    padding: 0;
+    transition: all 1s;
+    text-align: left;
+    background-color: transparent;
+}
+
+button:hover{
+    transform: scale(1.04);
+}
+
